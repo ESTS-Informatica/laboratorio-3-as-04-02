@@ -9,4 +9,9 @@ public class AirTransportation extends Transport{
         this.numberOfContainers = numberOfContainers;
         setFees(FEES);
     }
+    public String getName(){return name;}
+    public int getNumberOfContainers(){return numberOfContainers;}
+    public double getFees(){return FEES;}
+    public void setName(String name){this.name = name;}
+    public void setNumberOfContainers(int numberOfContainers) {this.numberOfContainers = numberOfContainers;}
 }

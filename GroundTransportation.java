@@ -5,4 +5,13 @@ public class GroundTransportation extends Transport{
         this.licensePlate = licensePlate;
         setFees(FEES);
     }
+    public void setLicensePlate(String licensePlate){
+        this.licensePlate = licensePlate;
+    }
+    public String getLicensePlate(){
+        return licensePlate;
+    }
+    public double getFees(){
+        return FEES;
+    }
 }
